@@ -1,0 +1,14 @@
+Migration Report - 2025-09-21
+
+Applied migration: V1__initial_schema.sql
+- Created Students table
+- Created Courses table
+- Created Professors table
+- Created Enrollments table
+- Added foreign key constraints
+
+Applied migration: V2__add_email_to_students.sql
+- ALTER TABLE Students ADD COLUMN Email VARCHAR(100);
+
+Applied migration: V3__update_course_credits.sql
+- UPDATE Courses SET Credits = 4 WHERE CourseID = 101;
