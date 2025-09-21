@@ -1,0 +1,9 @@
+This is a placeholder for the schema-documentation.pdf artifact.
+
+It would typically contain a simplified ER diagram and table-level descriptions for the University Management System database.
+
+Tables:
+- Students: StudentID (PK), Name, Major
+- Courses: CourseID (PK), Title, Credits
+- Professors: ProfessorID (PK), Name, Department
+- Enrollments: EnrollmentID (PK), StudentID (FK), CourseID (FK), ProfessorID (FK), Grade
